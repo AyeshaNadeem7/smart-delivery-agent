@@ -1,0 +1,24 @@
+# Secrets - never commit these
+.streamlit/secrets.toml
+.streamlit/secrets.toml.example
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# CrewAI local storage
+.crewai/
+db/
